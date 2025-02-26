@@ -1,0 +1,21 @@
+import random
+
+
+num = random.randrange(0, 100)#get a random number between 1-100
+
+#ask the user for their guess
+guess = input
+print("Guess the right number", input)
+
+
+if num < guess:
+    print("Guess is too short")
+    
+#add another if statement here for too big
+if num > guess:
+    print("The number you chose was too big")
+else:
+    print("you guessed right")
+
+
+#add a final if statement here for equal
